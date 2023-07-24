@@ -1,0 +1,158 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+     background-size: cover;
+     background-position: center; 
+     background-repeat: no-repeat;
+     
+     
+      }
+  
+      A propos {
+        background-image: url(Image_Equipe.jpg);
+        background-color: rgba(0, 0, 0, 0.292);
+      }
+  
+  
+  header {
+    display: flex;
+    position: relative;
+    background-color: #1717177c;
+  }
+
+  header img {
+    width: 60px;
+    max-width: 100%;
+  position: flex;
+
+   
+  }
+  
+  nav {
+   display: flex;
+   padding: 30px;
+    right: 100%;
+ 
+   
+    
+    }
+
+
+    nav li {
+       display: flex;
+       right: 50%;
+       
+       
+}
+  nav ul li  {
+    display: inline-flex;
+    margin-right: 10px;
+    
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+ 
+
+  .banner {
+  
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    
+    
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@500 & family= Rufina & display=swap');
+  h1 {
+    font-family:'Roboto', sans-serif ;
+    font-size: 50px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@500 & family= Rufina & display=swap');
+  h2 {
+    font-family:'Rufina', serif ;
+    font-size: 31px;
+  }
+
+  .découvrir-btn {
+    display: inline-block;
+   border-radius: 32px;
+    background-color: #29AAE1;
+    color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .découvrir-btn:hover {
+    background-color: #2B3D91;
+
+  }
+ 
+
+  @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@500 & family= Rufina & display=swap');
+  p {
+    
+    font-family:'Roboto', sans-serif ;
+   color: #fff;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  form {
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+
+    margin-top: 100px;
+    margin: 15px;
+    background-color: rgba(9, 9, 9, 0.633);
+    padding: 32px ;    
+    border-radius: 16px;
+    width: 300px;
+    
+    
+  }
+
+  /*Ajout d'un espacement de 24px entre chaque élément de formulaire */
+form label, 
+form input,
+form textarea,
+form input[type="submit"] {
+  margin-bottom: 24px;
+
+} 
+
+form label {
+    color: #fff;
+
+
+}
+
+/* Mettre les labels au-dessus des zones de texte (textarea) */
+form label {
+    display: block; 
+    text-align: left;
+    width: 100%; 
+    margin-bottom: 8px; 
+  }
+
+  /* Rendre le textarea plus long */
+form textarea {
+    height: 200px; 
+  }
+  
